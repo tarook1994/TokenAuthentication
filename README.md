@@ -18,9 +18,9 @@ This application demonstrates how to use the Bluemix Cloudant NoSQL DB service. 
 
 # Requesting to check a token : 
 
-(1) POST Request to /checktoken 
-(2) Add type & token as body parameters. Type is for the authentication provider.
+- POST Request to /checktoken 
+- Add type & token as body parameters. Type is for the authentication provider.
     ex : 
     token : ds23e234fqwsfwef
     type : facebook
-(3) Parse the response for error (if exists)
+- Parse the response for error (if exists)
