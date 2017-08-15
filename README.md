@@ -14,3 +14,13 @@ This application demonstrates how to use the Bluemix Cloudant NoSQL DB service. 
 + Access the running app in a browser at <http://localhost:3000>
 
 [Install Node.js]: https://nodejs.org/en/download/
+
+
+# Requesting to check a token : 
+
+(1) POST Request to /checktoken 
+(2) Add type & token as body parameters. Type is for the authentication provider.
+    ex : 
+    token : ds23e234fqwsfwef
+    type : facebook
+(3) Parse the response for error (if exists)
